@@ -1,9 +1,30 @@
-<mxfile host="app.diagrams.net" modified="2024-01-18T02:34:30.053Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.21" etag="KXC5tqNN7bloLdMwr-oA" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-18T03:02:14.031Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="-4fYgqTK9cVnU8OyWrDU" version="22.1.21" type="github">
   <diagram name="Page-1" id="Y9bY6NNXXmbLRjzVPzWL">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="700" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="EiAvGRJZeEtfLWHvlB5Z-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EiAvGRJZeEtfLWHvlB5Z-1" target="EiAvGRJZeEtfLWHvlB5Z-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EiAvGRJZeEtfLWHvlB5Z-1" value="Computer System&lt;br&gt;- USB Host Controller&lt;br&gt;- Application Software" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="60" width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="EiAvGRJZeEtfLWHvlB5Z-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EiAvGRJZeEtfLWHvlB5Z-2" target="EiAvGRJZeEtfLWHvlB5Z-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EiAvGRJZeEtfLWHvlB5Z-2" value="USB Peripheral&lt;br&gt;- USB Device&lt;br&gt;- USB Interface Controller" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="60" width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="EiAvGRJZeEtfLWHvlB5Z-3" value="USB Hub&lt;br&gt;- USB Port" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="350" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EiAvGRJZeEtfLWHvlB5Z-4" value="USB Device Hub &lt;br&gt;- USB Port" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="310" width="90" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="EiAvGRJZeEtfLWHvlB5Z-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=45;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EiAvGRJZeEtfLWHvlB5Z-1" target="EiAvGRJZeEtfLWHvlB5Z-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
